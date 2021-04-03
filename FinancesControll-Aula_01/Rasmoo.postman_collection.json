@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "22eb702e-c47f-439e-af81-3c8476ba5471",
+		"name": "Rasmoo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Categoria",
+			"item": [
+				{
+					"name": "Listar categorias",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/api/v1/categoria",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"v1",
+								"categoria"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
